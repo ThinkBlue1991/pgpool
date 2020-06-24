@@ -2,7 +2,7 @@
 
 ## Install
 ```
-pip3 install pypostgres==0.1
+pip3 install pypostgrestool==0.1
 ```
 
 ## Usage
