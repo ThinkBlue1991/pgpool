@@ -7,6 +7,7 @@ pip3 install pypostgres==0.1
 
 ## Usage
 ```
+from pg_client import PostgresDB
 db = PostgresDB(host="127.0.0.1", port=5432, user='postgres',
                      password='123456', db_name=my-db', min_conn=10,
                      max_conn=100)
